@@ -1,0 +1,27 @@
+var selection = [{
+    name: "fanta",
+    price: 1.60,
+    stock: 4
+  },
+  {
+    name: "cola",
+    price: 1.70,
+    stock: 3
+  },
+  {
+    name: "nuts",
+    price: 1.10,
+    stock: 8
+  },
+  {
+    name: "mars",
+    price: 1.20,
+    stock: 2
+  },
+  {
+    name: "snickers",
+    price: 1.20,
+    stock: 5
+  }
+];
+

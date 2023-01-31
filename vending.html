@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vending Machine</title>
+  <link rel="stylesheet" href="machine.css">
+</head>
+<body>
+ <script>
+
+
+function new_snack_snack(selection) {
+
+
+  var new_price_input = document.getElementById("new_price").value;
+  var new_stock_input = document.getElementById("new_stock").value;
+  var new_snack_input = document.getElementById("new_snack").value;
+
+
+  if (!selection.find(item => item.name === new_snack_input) {
+      selection.push({
+        name: new_snack_input,
+        price: new_price_input,
+        stock: new_stock_input
+      });
+    }
+
+    console.log(selection);
+
+    document.getElementById("snack_table_output").innerHTML = create_table();
+
+  }
+
+
+</script>
+</body>
+</html>
